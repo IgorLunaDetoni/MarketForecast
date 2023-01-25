@@ -1,0 +1,26 @@
+---
+title: "Modelos"
+author: "Igor"
+date: "2023-01-25"
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+oil <- read.csv("oil.csv")
+holidays_events <- read.csv("holidays_events.csv")
+sample<-read.csv("sample_submission.csv")
+stores <- read.csv("stores.csv")
+
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+ 
+```{r cars}
+
+```
+
+```{r pressure, echo=FALSE}
+
+```
+
